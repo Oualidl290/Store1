@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regester</title>
+    <link rel="stylesheet" href="SignUp.css">
+    
+</head>
+<body>
+    <div class="FValidate">
+        <h1>Create Account</h1>
+        <form id="dpkg" action="/valid.php" onsubmit="" method="POST" class="n">
+            <label for="">User Name *</label>
+            <input id="UN" type="text" required placeholder="UserName">
+            <br>
+            <label for="">Email *</label>
+            <input id="E" type="email" required placeholder="your email here">
+            <br>
+            <label for="">Password *</label>
+            <input id="PW" type="password" required placeholder="Password"><br>
+        </form>
+        <br>
+        <label for="">
+            <input class="M" type="checkbox" name="M" id="M" required>
+            Agree with our
+            <a href="">privacy policy</a> ?
+        </label><br>
+        <button for="form" class="k" type="button" value="" onclick="myValidationFormUp()">Sign Up</button>
+        <br>
+        <p class="parg">Alredy have an account   <a href="SignIN.html">SignIn</a></p>
+    </div>
+    <script src="valid.js"></script> 
+</body>
+</html>
